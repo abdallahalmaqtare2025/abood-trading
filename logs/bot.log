@@ -1,0 +1,1761 @@
+2026-03-16 14:14:34,828 | database | INFO | Database initialized at d:\JO1\data\signals.db
+2026-03-16 14:14:39,754 | apscheduler.scheduler | INFO | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-16 14:14:39,755 | apscheduler.scheduler | INFO | Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-16 14:14:39,758 | __main__ | INFO | Joker Trading Bot started successfully!
+2026-03-16 14:14:45,452 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getMe "HTTP/1.1 200 OK"
+2026-03-16 14:14:45,454 | apscheduler.scheduler | INFO | Added job "check_and_send_signals" to job store "default"
+2026-03-16 14:14:45,455 | apscheduler.scheduler | INFO | Added job "check_and_send_results" to job store "default"
+2026-03-16 14:14:45,456 | apscheduler.scheduler | INFO | Scheduler started
+2026-03-16 14:14:45,457 | telegram.ext.Application | INFO | Application started
+2026-03-16 14:14:45,657 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/deleteWebhook "HTTP/1.1 200 OK"
+2026-03-16 14:14:45,949 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/sendMessage "HTTP/1.1 200 OK"
+2026-03-16 14:14:45,950 | __main__ | INFO | Startup message sent to Telegram.
+2026-03-16 14:14:49,755 | apscheduler.executors.default | INFO | Running job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:15:34 UTC)" (scheduled at 2026-03-16 11:14:49.752652+00:00)
+2026-03-16 14:14:57,051 | __main__ | INFO | Active trade set: AUDUSD PUT
+2026-03-16 14:14:57,053 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:14:57,812 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/sendMessage "HTTP/1.1 200 OK"
+2026-03-16 14:14:57,814 | apscheduler.scheduler | INFO | Added job "entry_AUDUSD_11:19" to job store "default"
+2026-03-16 14:14:57,816 | apscheduler.executors.default | INFO | Job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:15:34 UTC)" executed successfully
+2026-03-16 14:15:07,372 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:15:09,772 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:15:39 UTC)" (scheduled at 2026-03-16 11:15:09.755577+00:00)
+2026-03-16 14:15:09,774 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:15:39 UTC)" executed successfully
+2026-03-16 14:15:17,610 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:15:27,852 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:15:34,764 | apscheduler.executors.default | INFO | Running job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:16:19 UTC)" (scheduled at 2026-03-16 11:15:34.752652+00:00)
+2026-03-16 14:15:34,766 | __main__ | INFO | Signal check skipped - waiting for active trade to finish
+2026-03-16 14:15:34,766 | apscheduler.executors.default | INFO | Job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:16:19 UTC)" executed successfully
+2026-03-16 14:15:38,091 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:15:39,767 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:16:09 UTC)" (scheduled at 2026-03-16 11:15:39.755577+00:00)
+2026-03-16 14:15:39,768 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:16:09 UTC)" executed successfully
+2026-03-16 14:15:48,276 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:15:58,433 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:16:08,607 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:16:09,768 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:16:39 UTC)" (scheduled at 2026-03-16 11:16:09.755577+00:00)
+2026-03-16 14:16:09,770 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:16:39 UTC)" executed successfully
+2026-03-16 14:16:18,851 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:16:19,760 | apscheduler.executors.default | INFO | Running job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:17:04 UTC)" (scheduled at 2026-03-16 11:16:19.752652+00:00)
+2026-03-16 14:16:19,760 | __main__ | INFO | Signal check skipped - waiting for active trade to finish
+2026-03-16 14:16:19,761 | apscheduler.executors.default | INFO | Job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:17:04 UTC)" executed successfully
+2026-03-16 14:16:29,026 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:16:39,176 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:16:39,771 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:17:09 UTC)" (scheduled at 2026-03-16 11:16:39.755577+00:00)
+2026-03-16 14:16:39,772 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:17:09 UTC)" executed successfully
+2026-03-16 14:16:49,361 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:17:00,009 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:17:04,768 | apscheduler.executors.default | INFO | Running job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:17:49 UTC)" (scheduled at 2026-03-16 11:17:04.752652+00:00)
+2026-03-16 14:17:04,769 | __main__ | INFO | Signal check skipped - waiting for active trade to finish
+2026-03-16 14:17:04,769 | apscheduler.executors.default | INFO | Job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:17:49 UTC)" executed successfully
+2026-03-16 14:17:09,772 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:17:39 UTC)" (scheduled at 2026-03-16 11:17:09.755577+00:00)
+2026-03-16 14:17:09,774 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:17:39 UTC)" executed successfully
+2026-03-16 14:17:10,869 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:17:21,315 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:17:32,779 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:17:39,769 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:18:09 UTC)" (scheduled at 2026-03-16 11:17:39.755577+00:00)
+2026-03-16 14:17:39,770 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:18:09 UTC)" executed successfully
+2026-03-16 14:17:43,017 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:17:49,763 | apscheduler.executors.default | INFO | Running job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:18:34 UTC)" (scheduled at 2026-03-16 11:17:49.752652+00:00)
+2026-03-16 14:17:49,764 | __main__ | INFO | Signal check skipped - waiting for active trade to finish
+2026-03-16 14:17:49,764 | apscheduler.executors.default | INFO | Job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:18:34 UTC)" executed successfully
+2026-03-16 14:17:53,176 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:18:04,930 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:18:09,758 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:18:39 UTC)" (scheduled at 2026-03-16 11:18:09.755577+00:00)
+2026-03-16 14:18:09,760 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:18:39 UTC)" executed successfully
+2026-03-16 14:18:15,176 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:18:25,471 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:18:34,768 | apscheduler.executors.default | INFO | Running job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:19:19 UTC)" (scheduled at 2026-03-16 11:18:34.752652+00:00)
+2026-03-16 14:18:34,769 | __main__ | INFO | Signal check skipped - waiting for active trade to finish
+2026-03-16 14:18:34,769 | apscheduler.executors.default | INFO | Job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:19:19 UTC)" executed successfully
+2026-03-16 14:18:36,676 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:18:39,773 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:19:09 UTC)" (scheduled at 2026-03-16 11:18:39.755577+00:00)
+2026-03-16 14:18:39,775 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:19:09 UTC)" executed successfully
+2026-03-16 14:18:48,020 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:18:58,446 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:19:08,625 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:19:09,767 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:19:39 UTC)" (scheduled at 2026-03-16 11:19:09.755577+00:00)
+2026-03-16 14:19:09,770 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:19:39 UTC)" executed successfully
+2026-03-16 14:19:18,853 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:19:19,768 | apscheduler.executors.default | INFO | Running job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:20:04 UTC)" (scheduled at 2026-03-16 11:19:19.752652+00:00)
+2026-03-16 14:19:19,768 | __main__ | INFO | Signal check skipped - waiting for active trade to finish
+2026-03-16 14:19:19,768 | apscheduler.executors.default | INFO | Job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:20:04 UTC)" executed successfully
+2026-03-16 14:19:29,065 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:19:39,344 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:19:39,758 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:20:09 UTC)" (scheduled at 2026-03-16 11:19:39.755577+00:00)
+2026-03-16 14:19:39,760 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:20:09 UTC)" executed successfully
+2026-03-16 14:19:49,581 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:19:57,829 | apscheduler.scheduler | INFO | Removed job 1dd8f531f0e741c98559b9d183291109
+2026-03-16 14:19:57,830 | apscheduler.executors.default | INFO | Running job "entry_AUDUSD_11:19 (trigger: date[2026-03-16 11:19:57 UTC], next run at: 2026-03-16 11:19:57 UTC)" (scheduled at 2026-03-16 11:19:57.813919+00:00)
+2026-03-16 14:19:58,448 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/sendMessage "HTTP/1.1 200 OK"
+2026-03-16 14:19:58,449 | apscheduler.executors.default | INFO | Job "entry_AUDUSD_11:19 (trigger: date[2026-03-16 11:19:57 UTC], next run at: 2026-03-16 11:19:57 UTC)" executed successfully
+2026-03-16 14:19:59,811 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:20:04,760 | apscheduler.executors.default | INFO | Running job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:20:49 UTC)" (scheduled at 2026-03-16 11:20:04.752652+00:00)
+2026-03-16 14:20:04,761 | __main__ | INFO | Signal check skipped - waiting for active trade to finish
+2026-03-16 14:20:04,761 | apscheduler.executors.default | INFO | Job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:20:49 UTC)" executed successfully
+2026-03-16 14:20:09,759 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:20:39 UTC)" (scheduled at 2026-03-16 11:20:09.755577+00:00)
+2026-03-16 14:20:09,761 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:20:39 UTC)" executed successfully
+2026-03-16 14:20:10,062 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:20:20,301 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:20:30,539 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:20:39,763 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:21:09 UTC)" (scheduled at 2026-03-16 11:20:39.755577+00:00)
+2026-03-16 14:20:39,764 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:21:09 UTC)" executed successfully
+2026-03-16 14:20:40,790 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:20:49,763 | apscheduler.executors.default | INFO | Running job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:21:34 UTC)" (scheduled at 2026-03-16 11:20:49.752652+00:00)
+2026-03-16 14:20:49,764 | __main__ | INFO | Signal check skipped - waiting for active trade to finish
+2026-03-16 14:20:49,764 | apscheduler.executors.default | INFO | Job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:21:34 UTC)" executed successfully
+2026-03-16 14:20:52,252 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:21:03,987 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:21:09,942 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:21:39 UTC)" (scheduled at 2026-03-16 11:21:09.755577+00:00)
+2026-03-16 14:21:09,974 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:21:39 UTC)" executed successfully
+2026-03-16 14:21:15,395 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:21:26,447 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:21:34,896 | apscheduler.executors.default | INFO | Running job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:22:19 UTC)" (scheduled at 2026-03-16 11:21:34.752652+00:00)
+2026-03-16 14:21:34,897 | __main__ | INFO | Signal check skipped - waiting for active trade to finish
+2026-03-16 14:21:34,897 | apscheduler.executors.default | INFO | Job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:22:19 UTC)" executed successfully
+2026-03-16 14:21:38,129 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:21:39,765 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:22:09 UTC)" (scheduled at 2026-03-16 11:21:39.755577+00:00)
+2026-03-16 14:21:39,767 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:22:09 UTC)" executed successfully
+2026-03-16 14:21:50,629 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:22:01,621 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:22:09,771 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:22:39 UTC)" (scheduled at 2026-03-16 11:22:09.755577+00:00)
+2026-03-16 14:22:09,773 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:22:39 UTC)" executed successfully
+2026-03-16 14:22:15,744 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:22:19,764 | apscheduler.executors.default | INFO | Running job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:23:04 UTC)" (scheduled at 2026-03-16 11:22:19.752652+00:00)
+2026-03-16 14:22:19,765 | __main__ | INFO | Signal check skipped - waiting for active trade to finish
+2026-03-16 14:22:19,765 | apscheduler.executors.default | INFO | Job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:23:04 UTC)" executed successfully
+2026-03-16 14:22:29,183 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:22:39,597 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:22:39,770 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:23:09 UTC)" (scheduled at 2026-03-16 11:22:39.755577+00:00)
+2026-03-16 14:22:39,772 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:23:09 UTC)" executed successfully
+2026-03-16 14:22:51,444 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:23:02,094 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:23:04,765 | apscheduler.executors.default | INFO | Running job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:23:49 UTC)" (scheduled at 2026-03-16 11:23:04.752652+00:00)
+2026-03-16 14:23:04,766 | __main__ | INFO | Signal check skipped - waiting for active trade to finish
+2026-03-16 14:23:04,766 | apscheduler.executors.default | INFO | Job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:23:49 UTC)" executed successfully
+2026-03-16 14:23:09,766 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:23:39 UTC)" (scheduled at 2026-03-16 11:23:09.755577+00:00)
+2026-03-16 14:23:09,768 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:23:39 UTC)" executed successfully
+2026-03-16 14:23:12,700 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:23:22,857 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:23:33,219 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:23:39,763 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:24:09 UTC)" (scheduled at 2026-03-16 11:23:39.755577+00:00)
+2026-03-16 14:23:39,767 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:24:09 UTC)" executed successfully
+2026-03-16 14:23:43,750 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:23:49,763 | apscheduler.executors.default | INFO | Running job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:24:34 UTC)" (scheduled at 2026-03-16 11:23:49.752652+00:00)
+2026-03-16 14:23:49,764 | __main__ | INFO | Signal check skipped - waiting for active trade to finish
+2026-03-16 14:23:49,765 | apscheduler.executors.default | INFO | Job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:24:34 UTC)" executed successfully
+2026-03-16 14:23:54,111 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:24:04,348 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:24:09,773 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:24:39 UTC)" (scheduled at 2026-03-16 11:24:09.755577+00:00)
+2026-03-16 14:24:09,775 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:24:39 UTC)" executed successfully
+2026-03-16 14:24:14,587 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:24:26,060 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:24:34,762 | apscheduler.executors.default | INFO | Running job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:25:19 UTC)" (scheduled at 2026-03-16 11:24:34.752652+00:00)
+2026-03-16 14:24:34,762 | __main__ | INFO | Signal check skipped - waiting for active trade to finish
+2026-03-16 14:24:34,763 | apscheduler.executors.default | INFO | Job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:25:19 UTC)" executed successfully
+2026-03-16 14:24:36,300 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:24:39,783 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:25:09 UTC)" (scheduled at 2026-03-16 11:24:39.755577+00:00)
+2026-03-16 14:24:39,785 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:25:09 UTC)" executed successfully
+2026-03-16 14:24:47,840 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:24:58,626 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:25:08,859 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:25:09,775 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:25:39 UTC)" (scheduled at 2026-03-16 11:25:09.755577+00:00)
+2026-03-16 14:25:09,776 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:25:39 UTC)" executed successfully
+2026-03-16 14:25:19,184 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:25:19,775 | apscheduler.executors.default | INFO | Running job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:26:04 UTC)" (scheduled at 2026-03-16 11:25:19.752652+00:00)
+2026-03-16 14:25:19,776 | __main__ | INFO | Signal check skipped - waiting for active trade to finish
+2026-03-16 14:25:19,777 | apscheduler.executors.default | INFO | Job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:26:04 UTC)" executed successfully
+2026-03-16 14:25:29,954 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:25:39,757 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:26:09 UTC)" (scheduled at 2026-03-16 11:25:39.755577+00:00)
+2026-03-16 14:25:39,759 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:26:09 UTC)" executed successfully
+2026-03-16 14:25:40,797 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:25:51,829 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:26:02,109 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:26:04,763 | apscheduler.executors.default | INFO | Running job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:26:49 UTC)" (scheduled at 2026-03-16 11:26:04.752652+00:00)
+2026-03-16 14:26:04,764 | __main__ | INFO | Signal check skipped - waiting for active trade to finish
+2026-03-16 14:26:04,764 | apscheduler.executors.default | INFO | Job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:26:49 UTC)" executed successfully
+2026-03-16 14:26:09,767 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:26:39 UTC)" (scheduled at 2026-03-16 11:26:09.755577+00:00)
+2026-03-16 14:26:09,787 | yfinance | ERROR | 
+1 Failed download:
+2026-03-16 14:26:09,788 | yfinance | ERROR | ['AUDUSD=X']: ValueError('unconverted data remains:  11:19:57')
+2026-03-16 14:26:11,961 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/sendMessage "HTTP/1.1 200 OK"
+2026-03-16 14:26:11,962 | __main__ | INFO | Active trade cleared: AUDUSD
+2026-03-16 14:26:11,963 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:26:39 UTC)" executed successfully
+2026-03-16 14:26:12,345 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:26:22,583 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:26:33,033 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:26:39,769 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:27:09 UTC)" (scheduled at 2026-03-16 11:26:39.755577+00:00)
+2026-03-16 14:26:39,770 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:27:09 UTC)" executed successfully
+2026-03-16 14:26:43,270 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:26:49,762 | apscheduler.executors.default | INFO | Running job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:27:34 UTC)" (scheduled at 2026-03-16 11:26:49.752652+00:00)
+2026-03-16 14:26:55,576 | __main__ | INFO | Active trade set: AUDUSD PUT
+2026-03-16 14:26:55,578 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:26:57,014 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/sendMessage "HTTP/1.1 200 OK"
+2026-03-16 14:26:57,016 | apscheduler.scheduler | INFO | Added job "entry_AUDUSD_11:31" to job store "default"
+2026-03-16 14:26:57,016 | apscheduler.executors.default | INFO | Job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:27:34 UTC)" executed successfully
+2026-03-16 14:27:05,822 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:27:09,770 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:27:39 UTC)" (scheduled at 2026-03-16 11:27:09.755577+00:00)
+2026-03-16 14:27:09,773 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:27:39 UTC)" executed successfully
+2026-03-16 14:27:16,037 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:27:26,638 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:27:34,761 | apscheduler.executors.default | INFO | Running job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:28:19 UTC)" (scheduled at 2026-03-16 11:27:34.752652+00:00)
+2026-03-16 14:27:34,762 | __main__ | INFO | Signal check skipped - waiting for active trade to finish
+2026-03-16 14:27:34,763 | apscheduler.executors.default | INFO | Job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:28:19 UTC)" executed successfully
+2026-03-16 14:27:36,925 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:27:39,768 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:28:09 UTC)" (scheduled at 2026-03-16 11:27:39.755577+00:00)
+2026-03-16 14:27:39,769 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:28:09 UTC)" executed successfully
+2026-03-16 14:27:47,582 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:27:57,761 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:28:08,673 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:28:09,770 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:28:39 UTC)" (scheduled at 2026-03-16 11:28:09.755577+00:00)
+2026-03-16 14:28:09,772 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:28:39 UTC)" executed successfully
+2026-03-16 14:28:19,117 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:28:19,763 | apscheduler.executors.default | INFO | Running job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:29:04 UTC)" (scheduled at 2026-03-16 11:28:19.752652+00:00)
+2026-03-16 14:28:19,764 | __main__ | INFO | Signal check skipped - waiting for active trade to finish
+2026-03-16 14:28:19,765 | apscheduler.executors.default | INFO | Job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:29:04 UTC)" executed successfully
+2026-03-16 14:28:29,845 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:28:39,768 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:29:09 UTC)" (scheduled at 2026-03-16 11:28:39.755577+00:00)
+2026-03-16 14:28:39,770 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:29:09 UTC)" executed successfully
+2026-03-16 14:28:40,620 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:28:50,857 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:29:01,033 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:29:04,759 | apscheduler.executors.default | INFO | Running job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:29:49 UTC)" (scheduled at 2026-03-16 11:29:04.752652+00:00)
+2026-03-16 14:29:04,760 | __main__ | INFO | Signal check skipped - waiting for active trade to finish
+2026-03-16 14:29:04,760 | apscheduler.executors.default | INFO | Job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:29:49 UTC)" executed successfully
+2026-03-16 14:29:09,767 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:29:39 UTC)" (scheduled at 2026-03-16 11:29:09.755577+00:00)
+2026-03-16 14:29:09,769 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:29:39 UTC)" executed successfully
+2026-03-16 14:29:11,186 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:29:21,372 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:29:31,610 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:29:39,770 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:30:09 UTC)" (scheduled at 2026-03-16 11:29:39.755577+00:00)
+2026-03-16 14:29:39,772 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:30:09 UTC)" executed successfully
+2026-03-16 14:29:41,766 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:29:49,754 | apscheduler.executors.default | INFO | Running job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:30:34 UTC)" (scheduled at 2026-03-16 11:29:49.752652+00:00)
+2026-03-16 14:29:49,755 | __main__ | INFO | Signal check skipped - waiting for active trade to finish
+2026-03-16 14:29:49,756 | apscheduler.executors.default | INFO | Job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:30:34 UTC)" executed successfully
+2026-03-16 14:29:51,956 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:30:02,126 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:30:09,771 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:30:39 UTC)" (scheduled at 2026-03-16 11:30:09.755577+00:00)
+2026-03-16 14:30:09,773 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:30:39 UTC)" executed successfully
+2026-03-16 14:30:13,389 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:30:23,634 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:30:33,870 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:30:34,768 | apscheduler.executors.default | INFO | Running job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:31:19 UTC)" (scheduled at 2026-03-16 11:30:34.752652+00:00)
+2026-03-16 14:30:34,768 | __main__ | INFO | Signal check skipped - waiting for active trade to finish
+2026-03-16 14:30:34,769 | apscheduler.executors.default | INFO | Job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:31:19 UTC)" executed successfully
+2026-03-16 14:30:39,759 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:31:09 UTC)" (scheduled at 2026-03-16 11:30:39.755577+00:00)
+2026-03-16 14:30:39,761 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:31:09 UTC)" executed successfully
+2026-03-16 14:30:44,033 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:30:54,212 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:31:04,384 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:31:09,763 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:31:39 UTC)" (scheduled at 2026-03-16 11:31:09.755577+00:00)
+2026-03-16 14:31:09,765 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:31:39 UTC)" executed successfully
+2026-03-16 14:31:14,626 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:31:19,762 | apscheduler.executors.default | INFO | Running job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:32:04 UTC)" (scheduled at 2026-03-16 11:31:19.752652+00:00)
+2026-03-16 14:31:19,763 | __main__ | INFO | Signal check skipped - waiting for active trade to finish
+2026-03-16 14:31:19,763 | apscheduler.executors.default | INFO | Job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:32:04 UTC)" executed successfully
+2026-03-16 14:31:25,034 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:31:35,308 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:31:39,768 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:32:09 UTC)" (scheduled at 2026-03-16 11:31:39.755577+00:00)
+2026-03-16 14:31:39,770 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:32:09 UTC)" executed successfully
+2026-03-16 14:31:45,548 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:31:55,787 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/getUpdates "HTTP/1.1 200 OK"
+2026-03-16 14:31:57,022 | apscheduler.scheduler | INFO | Removed job bd0893fa0cdf4dd0b36270a621f44aa5
+2026-03-16 14:31:57,023 | apscheduler.executors.default | INFO | Running job "entry_AUDUSD_11:31 (trigger: date[2026-03-16 11:31:57 UTC], next run at: 2026-03-16 11:31:57 UTC)" (scheduled at 2026-03-16 11:31:57.015510+00:00)
+2026-03-16 14:31:57,906 | httpx | INFO | HTTP Request: POST https://api.telegram.org/bot8547784958:AAEJPryv_lKK3W9wvL4gfPjFAbkEmB3Bewc/sendMessage "HTTP/1.1 200 OK"
+2026-03-16 14:31:57,907 | apscheduler.executors.default | INFO | Job "entry_AUDUSD_11:31 (trigger: date[2026-03-16 11:31:57 UTC], next run at: 2026-03-16 11:31:57 UTC)" executed successfully
+2026-03-16 14:31:59,650 | telegram.ext.Updater | ERROR | Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\http_proxy.py", line 343, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\http11.py", line 136, in handle_async_request
+    raise exc
+  File "C:\Python312\Lib\site-packages\httpcore\_async\http11.py", line 106, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\http11.py", line 177, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\http11.py", line 231, in _receive_event
+    raise RemoteProtocolError(msg)
+httpcore.RemoteProtocolError: Server disconnected without sending a response.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.RemoteProtocolError: Server disconnected without sending a response.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_extbot.py", line 671, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 4860, in get_updates
+    await self._post(
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.RemoteProtocolError: Server disconnected without sending a response.
+2026-03-16 14:32:02,751 | telegram.ext.Updater | ERROR | Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\http_proxy.py", line 288, in handle_async_request
+    connect_response = await self._connection.handle_async_request(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Python312\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_extbot.py", line 671, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 4860, in get_updates
+    await self._post(
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2026-03-16 14:32:04,764 | apscheduler.executors.default | INFO | Running job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:32:49 UTC)" (scheduled at 2026-03-16 11:32:04.752652+00:00)
+2026-03-16 14:32:04,765 | __main__ | INFO | Signal check skipped - waiting for active trade to finish
+2026-03-16 14:32:04,765 | apscheduler.executors.default | INFO | Job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:32:49 UTC)" executed successfully
+2026-03-16 14:32:06,307 | telegram.ext.Updater | ERROR | Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\http_proxy.py", line 288, in handle_async_request
+    connect_response = await self._connection.handle_async_request(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Python312\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_extbot.py", line 671, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 4860, in get_updates
+    await self._post(
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2026-03-16 14:32:09,774 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:32:39 UTC)" (scheduled at 2026-03-16 11:32:09.755577+00:00)
+2026-03-16 14:32:09,775 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:32:39 UTC)" executed successfully
+2026-03-16 14:32:10,600 | telegram.ext.Updater | ERROR | Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\http_proxy.py", line 288, in handle_async_request
+    connect_response = await self._connection.handle_async_request(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Python312\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_extbot.py", line 671, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 4860, in get_updates
+    await self._post(
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2026-03-16 14:32:16,037 | telegram.ext.Updater | ERROR | Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\http_proxy.py", line 288, in handle_async_request
+    connect_response = await self._connection.handle_async_request(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Python312\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_extbot.py", line 671, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 4860, in get_updates
+    await self._post(
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2026-03-16 14:32:23,170 | telegram.ext.Updater | ERROR | Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\http_proxy.py", line 288, in handle_async_request
+    connect_response = await self._connection.handle_async_request(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Python312\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_extbot.py", line 671, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 4860, in get_updates
+    await self._post(
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2026-03-16 14:32:32,827 | telegram.ext.Updater | ERROR | Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\http_proxy.py", line 288, in handle_async_request
+    connect_response = await self._connection.handle_async_request(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Python312\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_extbot.py", line 671, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 4860, in get_updates
+    await self._post(
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2026-03-16 14:32:39,766 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:33:09 UTC)" (scheduled at 2026-03-16 11:32:39.755577+00:00)
+2026-03-16 14:32:39,769 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:33:09 UTC)" executed successfully
+2026-03-16 14:32:46,282 | telegram.ext.Updater | ERROR | Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\http_proxy.py", line 288, in handle_async_request
+    connect_response = await self._connection.handle_async_request(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Python312\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_extbot.py", line 671, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 4860, in get_updates
+    await self._post(
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2026-03-16 14:32:49,773 | apscheduler.executors.default | INFO | Running job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:33:34 UTC)" (scheduled at 2026-03-16 11:32:49.752652+00:00)
+2026-03-16 14:32:49,774 | __main__ | INFO | Signal check skipped - waiting for active trade to finish
+2026-03-16 14:32:49,775 | apscheduler.executors.default | INFO | Job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:33:34 UTC)" executed successfully
+2026-03-16 14:33:05,423 | telegram.ext.Updater | ERROR | Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\http_proxy.py", line 288, in handle_async_request
+    connect_response = await self._connection.handle_async_request(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Python312\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_extbot.py", line 671, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 4860, in get_updates
+    await self._post(
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2026-03-16 14:33:09,762 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:33:39 UTC)" (scheduled at 2026-03-16 11:33:09.755577+00:00)
+2026-03-16 14:33:09,763 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:33:39 UTC)" executed successfully
+2026-03-16 14:33:33,113 | telegram.ext.Updater | ERROR | Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\http_proxy.py", line 288, in handle_async_request
+    connect_response = await self._connection.handle_async_request(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Python312\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_extbot.py", line 671, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 4860, in get_updates
+    await self._post(
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2026-03-16 14:33:34,766 | apscheduler.executors.default | INFO | Running job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:34:19 UTC)" (scheduled at 2026-03-16 11:33:34.752652+00:00)
+2026-03-16 14:33:34,766 | __main__ | INFO | Signal check skipped - waiting for active trade to finish
+2026-03-16 14:33:34,767 | apscheduler.executors.default | INFO | Job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:34:19 UTC)" executed successfully
+2026-03-16 14:33:39,760 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:34:09 UTC)" (scheduled at 2026-03-16 11:33:39.755577+00:00)
+2026-03-16 14:33:39,762 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:34:09 UTC)" executed successfully
+2026-03-16 14:34:05,189 | telegram.ext.Updater | ERROR | Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\http_proxy.py", line 288, in handle_async_request
+    connect_response = await self._connection.handle_async_request(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Python312\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_extbot.py", line 671, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 4860, in get_updates
+    await self._post(
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2026-03-16 14:34:09,761 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:34:39 UTC)" (scheduled at 2026-03-16 11:34:09.755577+00:00)
+2026-03-16 14:34:09,763 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:34:39 UTC)" executed successfully
+2026-03-16 14:34:19,770 | apscheduler.executors.default | INFO | Running job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:35:04 UTC)" (scheduled at 2026-03-16 11:34:19.752652+00:00)
+2026-03-16 14:34:19,771 | __main__ | INFO | Signal check skipped - waiting for active trade to finish
+2026-03-16 14:34:19,771 | apscheduler.executors.default | INFO | Job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:35:04 UTC)" executed successfully
+2026-03-16 14:34:37,222 | telegram.ext.Updater | ERROR | Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\http_proxy.py", line 288, in handle_async_request
+    connect_response = await self._connection.handle_async_request(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Python312\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_extbot.py", line 671, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 4860, in get_updates
+    await self._post(
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2026-03-16 14:34:39,763 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:35:09 UTC)" (scheduled at 2026-03-16 11:34:39.755577+00:00)
+2026-03-16 14:34:39,765 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:35:09 UTC)" executed successfully
+2026-03-16 14:35:04,773 | apscheduler.executors.default | INFO | Running job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:35:49 UTC)" (scheduled at 2026-03-16 11:35:04.752652+00:00)
+2026-03-16 14:35:04,773 | __main__ | INFO | Signal check skipped - waiting for active trade to finish
+2026-03-16 14:35:04,773 | apscheduler.executors.default | INFO | Job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:35:49 UTC)" executed successfully
+2026-03-16 14:35:09,280 | telegram.ext.Updater | ERROR | Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\http_proxy.py", line 288, in handle_async_request
+    connect_response = await self._connection.handle_async_request(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Python312\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_extbot.py", line 671, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 4860, in get_updates
+    await self._post(
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2026-03-16 14:35:09,764 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:35:39 UTC)" (scheduled at 2026-03-16 11:35:09.755577+00:00)
+2026-03-16 14:35:09,765 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:35:39 UTC)" executed successfully
+2026-03-16 14:35:39,765 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:36:09 UTC)" (scheduled at 2026-03-16 11:35:39.755577+00:00)
+2026-03-16 14:35:39,767 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:36:09 UTC)" executed successfully
+2026-03-16 14:35:41,327 | telegram.ext.Updater | ERROR | Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\http_proxy.py", line 288, in handle_async_request
+    connect_response = await self._connection.handle_async_request(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Python312\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_extbot.py", line 671, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 4860, in get_updates
+    await self._post(
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
+2026-03-16 14:35:49,763 | apscheduler.executors.default | INFO | Running job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:36:34 UTC)" (scheduled at 2026-03-16 11:35:49.752652+00:00)
+2026-03-16 14:35:49,764 | __main__ | INFO | Signal check skipped - waiting for active trade to finish
+2026-03-16 14:35:49,764 | apscheduler.executors.default | INFO | Job "check_and_send_signals (trigger: interval[0:00:45], next run at: 2026-03-16 11:36:34 UTC)" executed successfully
+2026-03-16 14:36:09,759 | apscheduler.executors.default | INFO | Running job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:36:39 UTC)" (scheduled at 2026-03-16 11:36:09.755577+00:00)
+2026-03-16 14:36:09,761 | apscheduler.executors.default | INFO | Job "check_and_send_results (trigger: interval[0:00:30], next run at: 2026-03-16 11:36:39 UTC)" executed successfully
+2026-03-16 14:36:13,390 | telegram.ext.Updater | ERROR | Exception happened while polling for updates.
+Traceback (most recent call last):
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\http_proxy.py", line 288, in handle_async_request
+    connect_response = await self._connection.handle_async_request(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Python312\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Python312\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: All connection attempts failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_extbot.py", line 671, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 4860, in get_updates
+    await self._post(
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 703, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\ext\_extbot.py", line 369, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\_bot.py", line 732, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\car77\AppData\Roaming\Python\Python312\site-packages\telegram\request\_httpxrequest.py", line 303, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: All connection attempts failed
